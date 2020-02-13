@@ -1,2 +1,95 @@
 /* font-family: 'Vollkorn', serif;
 font-family: 'Raleway', sans-serif; */
+
+*{
+    border: 1px dotted gold !important;
+}
+
+.jumbotron {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('../images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: right;
+    background-position-y: center;
+}
+
+.text-logo {
+    font-family: 'Vollkorn', serif;
+    color: #ece6dd;
+    padding-left: 2rem;
+    text-shadow: 2px 2px black;
+}
+
+.logo-sml{
+    font-size: 2em;
+}
+
+.logo-md{
+    font-size: 4em;
+}
+
+.logo-lg{
+    font-size: 8em;
+}
+
+
+@media only screen and (max-width: 414px) {
+    
+    .jumbotron{
+        background-image: url('../images/background-mobile.jpg');
+        background-position-x: center;
+        padding-top: 1rem;
+    }
+
+    .text-logo {
+        padding-left: 1rem;
+    }
+
+    .logo-sml{
+    font-size: 1.5em;
+    }
+
+    .logo-md{
+        font-size: 3em;
+    }
+
+    .logo-lg{
+        font-size: 5em;
+    }
+
+}
+
+@media only screen and (max-width: 375px) {
+    
+    .jumbotron{
+        padding-top: 1.75rem;
+    }
+
+    .text-logo {
+        padding-left: .5rem;
+    }
+
+    .logo-sml{
+    font-size: 1.25em;
+    }
+
+    .logo-md{
+        font-size: 2.75em;
+    }
+
+    .logo-lg{
+        font-size: 4em;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+    
+
+    .jumbotron{
+        padding-top: .5rem;
+    }
+
+}
