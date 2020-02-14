@@ -34,6 +34,16 @@ font-family: 'Raleway', sans-serif; */
     font-size: 8em;
 }
 
+.blockquote {
+    
+    padding: 2rem;
+    
+    font-family: 'Vollkorn', serif;
+    font-size: 2em;
+    color: #ece6dd;
+    text-shadow: 2px 2px black;
+}
+
 
 @media only screen and (max-width: 414px) {
     
