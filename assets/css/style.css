@@ -5,6 +5,10 @@ font-family: 'Raleway', sans-serif; */
     border: 1px dotted gold !important;
 }
 
+body{
+    background: black;
+}
+
 .jumbotron {
     height: 100vh;
     min-height: 500px;
@@ -39,7 +43,7 @@ font-family: 'Raleway', sans-serif; */
     padding: 2rem;
     
     font-family: 'Vollkorn', serif;
-    font-size: 2em;
+    font-size: 1.5em;
     color: #ece6dd;
     text-shadow: 2px 2px black;
 }
